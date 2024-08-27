@@ -1,0 +1,116 @@
+/* Basic reset */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and font */
+  body {
+    background-color: #f3f4f6;
+    color: #333;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* Center content with flexbox */
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add some style to the heading */
+  h1 {
+    font-size: 2.5rem;
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  /* Add some style to the paragraph */
+  p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  /* Background floating balls */
+  .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .ball {
+    position: absolute;
+    background: #3498db;
+    opacity: 0.6;
+    border-radius: 50%;
+    animation: float 10s infinite;
+  }
+  
+  .ball:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    bottom: 20%;
+    left: 10%;
+    animation-duration: 12s;
+  }
+  
+  .ball:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    top: 25%;
+    left: 65%;
+    animation-duration: 15s;
+  }
+  
+  .ball:nth-child(3) {
+    width: 70px;
+    height: 70px;
+    bottom: 30%;
+    left: 80%;
+    animation-duration: 8s;
+  }
+  
+  .ball:nth-child(4) {
+    width: 120px;
+    height: 120px;
+    top: 15%;
+    left: 30%;
+    animation-duration: 18s;
+  }
+  
+  /* Keyframes for floating animation */
+  @keyframes float {
+    0% {
+      transform: translateY(0) translateX(0);
+    }
+    50% {
+      transform: translateY(-20px) translateX(10px);
+    }
+    100% {
+      transform: translateY(0) translateX(0);
+    }
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  
