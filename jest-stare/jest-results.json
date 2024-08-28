@@ -1,0 +1,371 @@
+{
+  "numFailedTestSuites": 2,
+  "numFailedTests": 2,
+  "numPassedTestSuites": 4,
+  "numPassedTests": 8,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 6,
+  "numTotalTests": 10,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1724861483643,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1724861485317,
+        "runtime": 1391,
+        "slow": false,
+        "start": 1724861483926
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\pc\\workspace\\jest-practice\\src\\tests\\data.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "user object should have correct properties",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "user object should have correct properties"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1724861485319,
+        "runtime": 1390,
+        "slow": false,
+        "start": 1724861483929
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\pc\\workspace\\jest-practice\\src\\mytest.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "calculator"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "calculator should call multiply when adding two numbers",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 4,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should call multiply when adding two numbers"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1724861485330,
+        "runtime": 1401,
+        "slow": false,
+        "start": 1724861483929
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\pc\\workspace\\jest-practice\\src\\tests\\value.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 6,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m",
+                "pass": false
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mundefined\u001b[39m\n    at Object.<anonymous> (C:\\Users\\pc\\workspace\\jest-practice\\src\\tests\\value.test.ts:5:26)\n    at Promise.then.completed (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at run (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n    at Object.worker (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-runner\\build\\testWorker.js:106:12)"
+          ],
+          "fullName": "value should be null",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "value should be null"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mvalue should be null\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeNull\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mundefined\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 3 |\u001b[39m \u001b[90m//Asserts that the actual value is null.\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 4 |\u001b[39m test(\u001b[32m\"value should be null\"\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 5 |\u001b[39m   expect(getNullValue())\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m   |\u001b[39m                          \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 6 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 7 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 8 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/tests/value.test.ts\u001b[39m\u001b[0m\u001b[2m:5:26)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1724861485326,
+        "runtime": 1397,
+        "slow": false,
+        "start": 1724861483929
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\pc\\workspace\\jest-practice\\src\\tests\\sum.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "add 1+2 to equal to 3",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "add 1+2 to equal to 3"
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1724861485346,
+        "runtime": 1420,
+        "slow": false,
+        "start": 1724861483926
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\pc\\workspace\\jest-practice\\src\\tests\\newdata.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "getFirstPlayer"
+          ],
+          "duration": 6,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getFirstPlayer should return player1 when called with player1 and player2 (using toBe)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return player1 when called with player1 and player2 (using toBe)"
+        },
+        {
+          "ancestorTitles": [
+            "getFirstPlayer"
+          ],
+          "duration": 0,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getFirstPlayer should not return player2 when called with player1 and player2 (using not.toBe)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should not return player2 when called with player1 and player2 (using not.toBe)"
+        },
+        {
+          "ancestorTitles": [
+            "getFirstPlayer"
+          ],
+          "duration": 1,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "getFirstPlayer should return player1 when called with player1 and player2 (using toEqual)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should return player1 when called with player1 and player2 (using toEqual)"
+        },
+        {
+          "ancestorTitles": [
+            "getFirstPlayer"
+          ],
+          "duration": 1,
+          "failureDetails": [
+            {
+              "matcherResult": {
+                "actual": {
+                  "name": "Amit",
+                  "score": 20
+                },
+                "expected": {
+                  "name": "Amit",
+                  "score": 20
+                },
+                "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: not \u001b[32m{\"name\": \"Amit\", \"score\": 20}\u001b[39m\n",
+                "name": "toEqual",
+                "pass": true
+              }
+            }
+          ],
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\nExpected: not \u001b[32m{\"name\": \"Amit\", \"score\": 20}\u001b[39m\n\n    at Object.<anonymous> (C:\\Users\\pc\\workspace\\jest-practice\\src\\tests\\newdata.test.ts:18:50)\n    at Promise.then.completed (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\utils.js:298:28)\n    at new Promise (<anonymous>)\n    at callAsyncCircusFn (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\utils.js:231:10)\n    at _callCircusTest (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:316:40)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at _runTest (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:252:3)\n    at _runTestsForDescribeBlock (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:126:9)\n    at _runTestsForDescribeBlock (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:121:9)\n    at run (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\run.js:71:3)\n    at runAndTransformResultsToJestFormat (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapterInit.js:122:21)\n    at jestAdapter (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-circus\\build\\legacy-code-todo-rewrite\\jestAdapter.js:79:19)\n    at runTestInternal (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-runner\\build\\runTest.js:367:16)\n    at runTest (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-runner\\build\\runTest.js:444:34)\n    at Object.worker (C:\\Users\\pc\\workspace\\jest-practice\\node_modules\\jest-runner\\build\\testWorker.js:106:12)"
+          ],
+          "fullName": "getFirstPlayer should not return player2 when called with player1 and player2 (using not.toEqual)",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "retryReasons": [],
+          "status": "failed",
+          "title": "should not return player2 when called with player1 and player2 (using not.toEqual)"
+        },
+        {
+          "ancestorTitles": [],
+          "duration": 7,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "check if player1 and player2 are the same",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "check if player1 and player2 are the same"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mgetFirstPlayer › should not return player2 when called with player1 and player2 (using not.toEqual)\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mnot\u001b[2m.\u001b[22mtoEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // deep equality\u001b[22m\n\n    Expected: not \u001b[32m{\"name\": \"Amit\", \"score\": 20}\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 16 |\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 17 |\u001b[39m   test(\u001b[32m'should not return player2 when called with player1 and player2 (using not.toEqual)'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[22m\n\u001b[2m    \u001b[31m\u001b[1m>\u001b[22m\u001b[2m\u001b[39m\u001b[90m 18 |\u001b[39m     expect(getFirstPlayer(player1\u001b[33m,\u001b[39m player2))\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoEqual(player2)\u001b[33m;\u001b[39m \u001b[90m// Fails\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m    |\u001b[39m                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[2m\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 19 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 20 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[22m\n\u001b[2m     \u001b[90m 21 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[22m\u001b[2m\u001b[0m\u001b[36msrc/tests/newdata.test.ts\u001b[39m\u001b[0m\u001b[2m:18:50)\u001b[22m\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1724861485333,
+        "runtime": 1410,
+        "slow": false,
+        "start": 1724861483923
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\pc\\workspace\\jest-practice\\src\\myFunction.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "myFunction"
+          ],
+          "duration": 5,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "myFunction returns the length of the data",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "returns the length of the data"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
