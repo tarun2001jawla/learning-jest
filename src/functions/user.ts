@@ -1,4 +1,4 @@
 export const user = {
-    name : "Tarun",
-    age : 25,
-}
+  name: "Tarun",
+  age: 25,
+};
